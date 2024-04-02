@@ -11,6 +11,7 @@ class Money {
         return amount == money.amount && currency().equals(money.currency());
     }
 
+
     Money(int amount, String currency) {
         this.amount = amount;
         this.currency = currency;
